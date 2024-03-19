@@ -1,0 +1,21 @@
+@import "../../styles/colors.sass"
+@import "../../styles/screen-sizes.sass"
+
+$font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+button
+    overflow: clip
+    margin-bottom: 1%
+    width: 100%
+    height: 100%
+    background: $navbar-button-color
+    color: $text-color
+    font-size: 0.9rem
+    font-family: sans-serif
+    text-transform: uppercase
+    transition: all 150ms ease-in-out
+ 
+    &:hover
+        background: $navbar-button-color-hover
+        color: $navbar-button-color
+        transition: all 300ms ease-out

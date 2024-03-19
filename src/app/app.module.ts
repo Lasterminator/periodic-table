@@ -1,11 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
+import { FormsModule } from '@angular/forms'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { LegendComponent } from './legend/legend.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { navBarComponent } from './nav-bar/nav-bar.component';
 import { PeriodicTableComponent } from './periodic-table/periodic-table.component';
 import { ThermostatComponent } from './thermostat/thermostat.component';
 import { TooltipComponent } from './tooltip/tooltip.component';
@@ -21,7 +23,7 @@ import { ChemicalElementComponent } from './chemical-element/chemical-element.co
     AppComponent,
     HeaderComponent,
     LegendComponent,
-    NavBarComponent,
+    navBarComponent,
     PeriodicTableComponent,
     ThermostatComponent,
     TooltipComponent,
@@ -34,7 +36,8 @@ import { ChemicalElementComponent } from './chemical-element/chemical-element.co
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

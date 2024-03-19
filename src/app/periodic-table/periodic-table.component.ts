@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
 
+/**
+ * Represents the periodic table of the chemical elements.
+ */
 @Component({
   selector: 'app-periodic-table',
   templateUrl: './periodic-table.component.html',
-  styleUrl: './periodic-table.component.sass'
+  styleUrls: ['./periodic-table.component.sass']
 })
-export class PeriodicTableComponent {
-
+export class PeriodicTableComponent{
+  constructor() {
+  }
 }

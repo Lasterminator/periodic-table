@@ -1,0 +1,36 @@
+{
+    "periods": [
+        {
+            "index": 1,
+            "description": "The first period contains fewer elements than any other, with only two, hydrogen and helium. They therefore do not follow the octet rule, but rather a duplet rule. Chemically, helium behaves like a noble gas, and thus is taken to be part of the group 18 elements."
+        },
+        {
+            "index": 2,
+            "description": "Period 2 elements obey the octet rule in that they need eight electrons to complete their valence shell (lithium and beryllium obey duet rule, boron is electron deficient.), where at most eight electrons can be accommodated: two in the 2s orbital and six in the 2p subshell."
+        },
+        {
+            "index": 3,
+            "description": "All period three elements occur in nature and have at least one stable isotope. All but the noble gas argon are essential to basic geology and biology. "
+        },
+        {
+            "index": 4,
+            "description": "Period 4 includes the biologically essential elements potassium and calcium, and is the first period in the d-block with the lighter transition metals."
+        },
+        {
+            "index": 5,
+            "description": "Period 5 has the same number of elements as period 4 and follows the same general structure but with one more post transition metal and one fewer nonmetal."
+        },
+        {
+            "index": 6,
+            "description": "Period 6 is the first period to include the f-block, with the lanthanides (also known as the rare earth elements), and includes the heaviest stable elements. Many of these heavy metals are toxic and some are radioactive, but platinum and gold are largely inert."
+        },
+        {
+            "index": 7,
+            "description": "All elements of period 7 are radioactive. This period contains the heaviest element which occurs naturally on Earth, plutonium. All of the subsequent elements in the period have been synthesized artificially. Whilst five of these (from americium to einsteinium) are now available in macroscopic quantities, most are extremely rare, having only been prepared in microgram amounts or less. Some of the later elements have only ever been identified in laboratories in quantities of a few atoms at a time."
+        },
+        {
+            "index": 8,
+            "description": "No element of the eighth period has yet been synthesized. A g-block is predicted. It is not clear if all elements predicted for the eighth period are in fact physically possible. There may therefore be no ninth period."
+        }
+    ]
+}

@@ -1,1 +1,37 @@
-<p>modal works!</p>
+<div
+    class="container"
+    *ngIf="isVisible"
+>
+    <div
+        class="background"
+        (click)="close()"
+    ></div>
+    <article class="modal">
+        <div class="content">
+            <!-- Top Section -->
+            <div class="top-section">
+                <!-- Titles and details -->
+                <div class="info">
+                    <h2 class="title"> {{this.info?.getTitle() | titlecase}} </h2>
+                    <h3 class="subtitle"> {{this.info?.getSubTitle() | titlecase}} </h3>
+                    <div class="details">
+                        <span *ngFor="let detail of this.info?.getDetails()">
+                            <span class="detail-name">{{detail[0]}}: </span>
+                            <span class="detail-value">{{detail[1] | titlecase}}</span>
+                            <br>
+                        </span>
+                    </div>
+                </div>
+                 <!-- Image -->
+                <div *ngIf="this.hasImage" class="image">
+                    <img src="{{this.info?.getImageUrl()}}" (error)="this.hasImage = false">
+                </div>
+            </div>
+             <!-- Bottom Section -->
+            <div class="bottom-section">
+                <p class="description"> {{this.info?.getDescription()}} </p>
+            </div>
+        </div>
+        <button class="close-btn" (click)="close()">X</button>
+    </article>
+</div>

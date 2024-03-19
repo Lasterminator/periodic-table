@@ -1,0 +1,10 @@
+@import "../../styles/colors.sass"
+@import "../../styles/screen-sizes.sass"
+
+.datatable-open
+    display: grid
+    grid-template-columns: 1fr 1fr
+
+@media (max-width: $screen-width-1)
+    .datatable-open
+        display: block

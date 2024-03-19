@@ -1,0 +1,29 @@
+{
+    "blocks": [
+        {
+            "index": 1,
+            "name": "s",
+            "description": "The s-block encompasses the first two columns on the left side of the periodic table, including nonmetals hydrogen and helium, alkali metals (group 1), and alkaline earth metals (group 2). Their electron configuration is typically ns1–2. Helium, while an s-element, is placed in group 18 next to neon. S-block metals are generally soft with low melting and boiling points, often imparting color to flames. Chemically, s-elements (excluding helium) are highly reactive and tend to form ionic compounds with nonmetals."
+        },
+        {
+            "index": 2,
+            "name": "p",
+            "description": "The p-block contains metals, nonmetals, and metalloids, with their valence electrons in the p orbital."
+        },
+        {
+            "index": 3,
+            "name": "d",
+            "description": "D-block elements are predominantly metals with one or more chemically active d-orbital electrons, allowing for various oxidation states."
+        },
+        {
+            "index": 4,
+            "name": "f",
+            "description": "F-block elements, found in periods 6 and 7, are all metals with f-orbital electrons playing a role in their chemistry."
+        },
+        {
+            "index": 5,
+            "name": "g",
+            "description": "The theoretical g-block is expected to start near element 121, potentially participating in chemical interactions by element 121, akin to the behavior of 4f and 5f orbitals."
+        }
+    ]
+}

@@ -1,1 +1,16 @@
-<p>tooltip works!</p>
+<div
+    class="container {{getRadioactivityClass()}}"
+    *ngIf="hasData()"
+>
+    <div class="background-symbol">
+        {{getBackgroundText()}}
+    </div>
+    <div class="text">
+        <div class="title">
+            {{getTitle() | titlecase}}
+        </div>
+        <div class="description">
+            {{getDescription()}}
+        </div>
+    </div>
+</div>

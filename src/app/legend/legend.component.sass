@@ -1,0 +1,56 @@
+@import "../../styles/colors.sass"
+@import "../../styles/screen-sizes.sass"
+
+$font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+$pos: 1%
+
+.container
+    position: absolute
+    bottom: $pos
+    right: $pos
+    pointer-events: none
+
+    .item
+        font-size: 30px
+        font-family: $font
+
+ul
+  list-style: none
+  padding-left: 0
+
+li::before
+    content: 'o'
+    font-size: 40px
+
+// Blocks Mode
+.s-block::before
+    color: $tile-color-block-s
+.p-block::before
+    color: $tile-color-block-p
+.d-block::before
+    color: $tile-color-block-d
+.f-block::before
+    color: $tile-color-block-f
+
+// State Mode
+.solid::before
+    color: $tile-color-state-solid
+.liquid::before
+    color: $tile-color-state-liquid
+.vapour::before
+    color: $tile-color-state-vapour
+
+// Classification Mode
+.nonmetal::before
+    color: #c658e5
+.metaloid::before
+    color: #a4a5d6
+.metal::before
+    color: #c1c6cb
+
+// Radiation Mode
+.non-radioactive
+    color: $radiation-false-color
+.radioactive
+    color: $radiation-true-color
+    text-shadow: 0 0 10px $radiation-true-color

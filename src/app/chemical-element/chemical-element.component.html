@@ -1,1 +1,14 @@
-<p>chemical-element works!</p>
+<div
+    class="element-container"
+    (mouseenter)="select()"
+    (mouseleave)="unselect()"
+    (click)="openModal()"
+>
+    <div
+        class="element-tile {{getElementTileHtmlClass()}}"
+    >
+        <span class="element-number">{{element.atomicNumber}}</span>
+        <span class="element-symbol">{{element.symbol}}</span>
+        <span class="element-name">{{element.name | titlecase}}</span>
+    </div>
+</div>

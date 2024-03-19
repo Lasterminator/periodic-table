@@ -1,1 +1,12 @@
-<p>element-grid works!</p>
+
+<div class="grid">
+    <div
+        class="grid-item"
+        *ngFor="let element of elements"
+    >
+        <app-chemical-element
+            *ngIf="element"
+            [atomicNumber]="element.atomicNumber"
+        ></app-chemical-element>
+    </div>
+</div>

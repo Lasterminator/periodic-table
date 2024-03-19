@@ -1,1 +1,41 @@
-<p>datatable works!</p>
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th (click)="sort(00)">Z</th>
+                <th (click)="sort(01)">Name</th>
+                <th (click)="sort(02)">Symbol</th>
+                <th (click)="sort(03)">Weight (Da)</th>
+                <th (click)="sort(04)">Density (g/cm<sup>3</sup>)</th>
+                <th (click)="sort(05)">Class.</th>
+                <th (click)="sort(06)">Melts (K)</th>
+                <th (click)="sort(07)">Boils (K)</th>
+                <th (click)="sort(08)">Block</th>
+                <th (click)="sort(09)">Group</th>
+                <th (click)="sort(10)">Period</th>
+                <th (click)="sort(11)">Radiation</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr
+                *ngFor="let ele of elements"
+                (mouseenter)="selectElement(ele)"
+                (mouseleave)="unselect()"
+                [class]="getRowHtmlClass(ele)"
+            >
+                <td class="cell" (click)="openModal()">{{ele.atomicNumber}}</td>
+                <td class="cell" (click)="openModal()">{{ele.name | titlecase}}</td>
+                <td class="cell" (click)="openModal()">{{ele.symbol}}</td>
+                <td class="cell" (click)="openModal()">{{ele.atomicMass}}</td>
+                <td class="cell" (click)="openModal()">{{ele.density}}</td>
+                <td class="cell" (click)="openModal()">{{getElementClassification(ele.classification)}}</td>
+                <td class="cell" (click)="openModal()">{{ele.meltingPoint ?? '?'}}</td>
+                <td class="cell" (click)="openModal()">{{ele.boilingPoint ?? '?'}}</td>
+                <td class="cell" (click)="openModal()">{{ele.block.name}}</td>
+                <td class="cell" (click)="openModal()">{{ele.group?.name ?? '-'}}</td>
+                <td class="cell" (click)="openModal()">{{ele.period.index}}</td>
+                <td class="cell" (click)="openModal()">{{ele.isRadioactive ? '☢' : ''}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

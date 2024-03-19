@@ -1,1 +1,10 @@
-<p>legend works!</p>
+<div
+    *ngIf="hasContent()"
+    class="container"
+>
+    <ul class="list">
+        <li *ngFor="let item of items" class="item {{item}}">
+            {{item}}
+        </li>
+    </ul>
+</div>

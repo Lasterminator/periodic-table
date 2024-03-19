@@ -1,0 +1,43 @@
+@import "../../styles/colors.sass"
+@import "../../styles/screen-sizes.sass"
+
+.container
+    display: flex
+    justify-content: flex-end
+    margin-left: 3%
+    height: 45rem
+    overflow: scroll
+
+    @media (max-width: $screen-width-1)
+        justify-content: center
+        margin-left: 0
+        margin-top: 3%
+
+table
+    position: relative
+    text-align: center
+    color: $text-color
+    border-collapse: collapse
+
+th, td
+    padding: 0.25rem
+
+th
+    position: sticky
+    top: 0
+    background: $navbar-button-color
+
+    &:hover
+        background: $navbar-button-color-hover
+
+tr
+    background: $tile-color
+    cursor: pointer
+        
+    &:nth-child(even)
+        background: $tile-color-stripe
+
+    &.selected
+        background: $tile-color-selected
+        box-shadow: 0 0 50px $tile-color-selected
+        color: $modal-text-color

@@ -1,0 +1,112 @@
+{
+    "groups": [
+        {
+            "index": 1,
+            "name": "lithium family",
+            "trivialName": "hydrogen & alkali metals",
+            "description": "Group 1 is composed of hydrogen (H) and the alkali metals. Elements of the group have one s-electron in the outer electron shell. Hydrogen is not considered to be an alkali metal as it is not a metal, though it is more analogous to them than any other group. This makes the group somewhat exceptional."
+        },
+        {
+            "index": 2,
+            "name": "beryllium family",
+            "trivialName": "alkaline earth metals",
+            "description": "The elements of this group have very similar properties: they are all shiny, silvery-white, somewhat reactive metals at standard temperature and pressure."
+        },
+        {
+            "index": 3,
+            "name": "scandium family",
+            "trivialName": null,
+            "description": "This group is closely related to the rare-earth elements."
+        },
+        {
+            "index": 4,
+            "name": "titanium family",
+            "trivialName": null,
+            "description": "All the group 4 elements are hard, refractory metals. Their inherent reactivity is completely masked due to the formation of a dense oxide layer that protects them from corrosion, as well as attack by many acids and alkalis."
+        },
+        {
+            "index": 5,
+            "name": "vanadium family",
+            "trivialName": null,
+            "description": "The group itself has not acquired a trivial name; it belongs to the broader grouping of the transition metals."
+        },
+        {
+            "index": 6,
+            "name": "chromium family",
+            "trivialName": null,
+            "description": "The electron configuration of these elements do not follow a unified trend, though the outermost shells do correlate with trends in chemical behavior."
+        },
+        {
+            "index": 7,
+            "name": "manganese family",
+            "trivialName": null,
+            "description": "Like other groups, the members of this family show patterns in their electron configurations, especially the outermost shells resulting in trends in chemical behavior."
+        },
+        {
+            "index": 8,
+            "name": "iron family",
+            "trivialName": null,
+            "description": "All members of this group are transition metals. Like other groups, the members of this family show patterns in electron configuration, especially in the outermost shells, resulting in trends in chemical behavior."
+        },
+        {
+            "index": 9,
+            "name": "cobalt family",
+            "trivialName": null,
+            "description": "All members of this group are transition metals in the d-block, considered to be some of the most rare of which. Like other groups, the members of this family show patterns in electron configuration, especially in the outermost shells, resulting in trends in chemical behavior; however, rhodium deviates from the pattern."
+        },
+        {
+            "index": 10,
+            "name": "nickel family",
+            "trivialName": null,
+            "description": "All members of this group are d-block transition metals. All known isotopes of darmstadtium are radioactive with short half-lives, and are not known to occur in nature; only minute quantities have been synthesized in laboratories. Like other groups, the members of this group show patterns in electron configuration, especially in the outermost shells, although for this group they are particularly weak, with palladium being an exceptional case."
+        },
+        {
+            "index": 11,
+            "name": "copper family",
+            "trivialName": "coinage metals",
+            "description": "All members of this group are relatively inert, corrosion-resistant metals. These elements have low electrical resistivity so they are used for wiring. Like other groups, the members of this family show patterns in electron configuration, especially in the outermost shells, resulting in trends in chemical behavior, although roentgenium is probably an exception."
+        },
+        {
+            "index": 12,
+            "name": "zinc family",
+            "trivialName": null,
+            "description": "All members of this group are soft, diamagnetic, divalent metals. They have the lowest melting points among all transition metals. Like other groups of the periodic table, the members of group 12 show patterns in its electron configuration, especially the outermost shells, which result in trends in their chemical behavior."
+        },
+        {
+            "index": 13,
+            "name": "boron family",
+            "trivialName": null,
+            "description": "Like other groups, the members of this family show patterns in electron configuration, especially in the outermost shells, resulting in trends in chemical behavior. The boron group is notable for trends in the electron configuration."
+        },
+        {
+            "index": 14,
+            "name": "carbon family",
+            "trivialName": null,
+            "description": "Like other groups, the members of this family show patterns in electron configuration, especially in the outermost shells, resulting in trends in chemical behavior. Each of the elements in this group has 4 electrons in its outer shell."
+        },
+        {
+            "index": 15,
+            "name": "nitrogen family",
+            "trivialName": "pnictogens",
+            "description": "This group has the defining characteristic that all the component elements have 5 electrons in their outermost shell, that is 2 electrons in the s subshell and 3 unpaired electrons in the p subshell. They are therefore 3 electrons short of filling their outermost electron shell in their non-ionized state."
+        },
+        {
+            "index": 16,
+            "name": "oxygen family",
+            "trivialName": "chalcogens",
+            "description": "Chalcogens show similar patterns in electron configuration, especially in the outermost shells, where they all have the same number of valence electrons, resulting in similar trends in chemical behaviour."
+        },
+        {
+            "index": 17,
+            "name": "oxygen family",
+            "trivialName": "halogens",
+            "description": "The group of halogens is the only periodic table group that contains elements in three of the main states of matter at standard temperature and pressure. All of the halogens form acids when bonded to hydrogen. Most halogens are typically produced from minerals or salts. The middle halogens—chlorine, bromine, and iodine—are often used as disinfectants. Organobromides are the most important class of flame retardants, while elemental halogens are dangerous and can be toxic."
+        },
+        {
+            "index": 18,
+            "name": "helium family",
+            "trivialName": "noble gases",
+            "description": "The noble gases (historically also the inert gases; sometimes referred to as aerogens) make up a class of chemical elements with similar properties; under standard conditions, they are all odorless, colorless, monatomic gases with very low chemical reactivity."
+        }
+    ]
+}

@@ -1,1 +1,14 @@
-<p>thermostat works!</p>
+<div class="container {{getVisibilityClass()}}">
+    <input
+        #slider
+        class="temperature-slider"
+        type="range"
+        min="{{minTemperature}}"
+        max="{{maxTemperature}}"
+        value="273.15"
+        (input)="setTemperature(slider.value)"
+    >
+    <span class="temperature-text">
+        {{getTemperatureText()}}
+    </span>
+</div>

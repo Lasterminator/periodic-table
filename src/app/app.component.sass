@@ -1,0 +1,15 @@
+@import "../styles/screen-sizes"
+
+@mixin container($width)
+  .container
+    margin: 2% $width 4% $width
+    height: 70vh
+
+@media (min-width: $screen-width-1)
+  @include container(17%)
+
+@media (max-width: $screen-width-1)
+  @include container(10%)
+
+@media (max-width: $screen-width-2)
+  @include container(1%)
